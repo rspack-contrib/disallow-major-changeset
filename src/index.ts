@@ -21,7 +21,7 @@ function checkChangeset(packages: Package[], changesets: NewChangeset[]) {
     for (const release of releases) {
       if (release.type === 'major') {
         throw Error(
-          `[changeset checker] Find a major version changeset file "${id}".md for "${release.name}" package.\nPlease confirm whether you need to bump a major version.`,
+          `[changeset checker] Find a major version changeset file "${id}.md" for "${release.name}" package.\nPlease confirm whether you need to bump a major version.`,
         );
       }
       if (!packages.find((pkg) => pkg.packageJson.name === release.name)) {
