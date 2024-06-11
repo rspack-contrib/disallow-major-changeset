@@ -18,5 +18,10 @@
   "devDependencies": {
     "@types/node": "18.x",
     "typescript": "^5.4.5"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true,
+    "registry": "https://registry.npmjs.org/"
   }
 }
