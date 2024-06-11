@@ -1,0 +1,22 @@
+{
+  "name": "disallow-major-changeset",
+  "version": "0.0.1",
+  "license": "MIT",
+  "bin": "./bin.js",
+  "files": [
+    "dist",
+    "bin.js"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "pnpm build"
+  },
+  "dependencies": {
+    "@changesets/read": "^0.6.0",
+    "@manypkg/get-packages": "^1.1.3"
+  },
+  "devDependencies": {
+    "@types/node": "18.x",
+    "typescript": "^5.4.5"
+  }
+}
