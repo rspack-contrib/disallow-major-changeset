@@ -1,7 +1,8 @@
 {
   "name": "disallow-major-changeset",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "license": "MIT",
+  "type": "module",
   "bin": "./bin.js",
   "files": [
     "dist",
